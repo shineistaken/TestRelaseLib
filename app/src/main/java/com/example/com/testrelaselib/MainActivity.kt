@@ -17,6 +17,6 @@ class MainActivity : Activity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tv.setText("from foo lib")
+        tv.setText("test foo lib")
     }
 }
