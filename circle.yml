@@ -20,4 +20,5 @@ override:
 
 test:
 override:
-- ./gradlew build
+#- ./gradlew build
+- ./gradlew assembleRelease
